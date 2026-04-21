@@ -42,7 +42,7 @@ export default function Process({ onBack }: ProcessProps) {
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 {/* 🖼️ เปลี่ยนรูปภาพสำหรับหมวด Sketch ตรงวงเล็บนี้ (ไฟล์อยู่ในโฟลเดอร์ public/sketch) */}
-                {['ตูน.png', 'ตูน2.png', 'ตูน3.png', 'ตูน4.png'].map((img, i) => (
+                {['image/sk1.png', 'image/sk2.png', 'image/sk3.png', 'image/sk4.png'].map((img, i) => (
                   <div key={i} className="aspect-square bg-gray-50 rounded-xl overflow-hidden border-2 border-brand-yellow/20 shadow-sm">
                     <img 
                       src={`/sketch/${img}`} 

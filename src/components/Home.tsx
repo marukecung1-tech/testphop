@@ -22,7 +22,7 @@ export default function Home({ onStart }: HomeProps) {
                 ⚠️ คำเตือน: ไม่ต้องใส่คำว่า public ใน src="..." เพราะมันจะไม่อ่านภาพ ให้เขียนเป็น "/image/ชื่อรูป" เสมอครับ
             */}
             <img 
-              src="/image/logo-v3.png" 
+              src="image/logo-v3.png" 
               alt="Six Flavors Spirits Logo" 
               className="w-64 h-64 md:w-80 md:h-80 object-contain mx-auto drop-shadow-2xl"
               referrerPolicy="no-referrer"
